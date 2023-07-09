@@ -90,6 +90,10 @@ a:active {
     height: 100%;
 }
 
+.profile-img {
+    border-radius: 10rem !important;
+}
+
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .grid figure figcaption>a {
@@ -2120,13 +2124,14 @@ div.mc-image {
 
 .rt-box {
     float: left;
-    width: 70%;
+    width: 100%;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 00px;
+    overflow: hidden;
 }
 
 img.img.img-circle.lt-box {
     float: left;
-    width: 60px;
+    width: 50px;
     height: auto;
 }
