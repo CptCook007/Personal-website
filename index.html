@@ -1,9 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 
 <head>
   <meta charset="utf-8">
   <meta name="author" content="shamalmuneer">
+  <meta name="description" content="portfolio">
   <meta name="viewport" content="width=device-width, maximum-scale=1">
   <title>Personal Website | Shamal K P</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -12,7 +13,6 @@
   <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
   <link href="css/animate.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 </head>
 
 <body>
@@ -419,9 +419,9 @@
       $.ajax({
         url: "https://script.google.com/macros/s/AKfycbyHYTKe8lTyY1yebNJqKybcRjPmAb-80WcXEjT3i6A42VeNYP4VaCO0czaI_asI62sC/exec",
         data: $("#submit-form").serialize(),
-        method: "post",
+        method: "POST",
         success: function (response) {
-          alert("Form submitted successfully")
+          alert("Mail sent successfully")
           // window.location.reload()
           //window.location.href="https://google.com"
         },
